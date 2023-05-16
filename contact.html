@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactForm</title>
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+<body>
+    <div class="holder">
+    <form action="" method="get">
+    <h1 class="main">Contact Form</h1>
+    <p class="fill">Please fill all the text in the Form</p>
+    <hr>
+    <p> 
+        Your Name: *
+        <input type="text" id=name required name="name" placeholder="Sakshi Yadav">
+    </p>
+    <p> 
+        your Email: *
+        <input type="email" required name="email_id" id="Email-id" placeholder="yadav@gamil.com">
+    </p>
+    <p>
+        Massage: *
+        <textarea placeholder="Enter your Massage" name="msg" id="msg" cols="80" rows="6"></textarea>
+    </p>
+    <p>Subject: *
+        <select name="subject"id=subject required>
+            <option value="">--Select your type--</option>
+            <option value="Job inquiry">Job inquiry</option>
+            <option value="course">Course</option>
+            <option value="cetificate">Cetificate</option>
+            <option value="companies">Companies</option>
+        </select>
+    </p>
+<input type="submit" value="Submit">
+</form>
+ </div>
+  </body>
+     </html>
